@@ -75,4 +75,6 @@ Para el uso de imágenes Docker de calibre-web se recomienda visita el proyecto 
 
 Para información extra, FAQs y otros detalles, visite [Wiki de calibre-web](https://github.com/janeczku/calibre-web/wiki)
 
-## Este es un FORK No oficial de Calibre-Web. Código sometido a la licencia GPL v3
+## Este es un FORK No oficial de Calibre-Web. 
+
+Código sometido a la licencia GPL v3
