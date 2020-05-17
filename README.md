@@ -35,17 +35,27 @@ Esta repositorio es un fork del original [calibre-web] https://github.com/janecz
 ## INSTALACION RAPIDA (Chequeado en Debian 10 Buster)
 1. Revise su versión de python activa ejecutando `python --version`
 2. Debe de tener pip ó pip3 instalado:
+
    2a. Si su version de python es 2.7.x asegurese de tener instalado pip. `apt-get -y install python-pip`
+   
    2b. Si su version de python es 3.x asegurese de tener instalado pip. `apt-get -y install python3-pip`
 3. Cambiese a la ruta donde ha instalado el programa e instale las dependencias segun su versión de python:
+
    3a. Para python 2.7.x ejecute: `pip install --target vendor -r requirements.txt`
+   
    3b. Para python 3.x   ejecute: `pip3 install --target vendor -r requirements.txt`   
+   
 4. Ya puede inicar el programa. 
    4a. Lanzar mientras etamos en la consola. Simplemente escriba: `python cps.py` 
+   
    4b. Para dejarlo lanzado permanentemente, utilice el comando: `nohup python cps.py &`
+   
 5. Comprobar funcionamiento en el navegador:   
+
    5a. Utilice la URL `http://localhost:8083` ó `http://nombre.de.su.servidor:8083`
+   
    5b. Para acceder al catalogo OPDS navege a: `http://localhost:8083/opds` ó `http://nombre.de.su.servidor:8083/opds`
+   
 6. Cuando inicie le pedirá `Location of Calibre database` debe escribir la Ruta Absoluta en donde tiene la librería de Calibre (en donde se encuentra el fichero metadata.db), pulse el botón  "Submit" button
 NOTA: Opcionalmente puede integar Google Drive para almacenar su libreria Calibre. [-> Usar integración con Google Drive](https://github.com/janeczku/calibre-web/wiki/Configuration#using-google-drive-integration)
 7. Se le pedira el login inicial para acceder y configurar el servidor.
