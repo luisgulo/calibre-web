@@ -4,7 +4,7 @@ Calibre-Web es una aplicacion Web con una interfaz limpia para mostrar, leer o d
 
 Esta repositorio es un fork del original [calibre-web] https://github.com/janeczku/calibre-web, y este a su vez de otro:
 
-*This software is a fork of [library](https://github.com/janeczku/calibre-webhttps://github.com/mutschler/calibreserver) and licensed under the GPL v3 License.*
+*Calibre-Web es un fork de [library](https://github.com/janeczku/calibre-webhttps://github.com/mutschler/calibreserver) y esta bajo la licencia GPL v3.*
 
 ![Main screen](https://github.com/janeczku/calibre-web/wiki/images/main_screen.png)
 
@@ -65,4 +65,4 @@ Para el uso de imágenes Docker de calibre-web se recomienda visita el proyecto 
 
 Para información extra, FAQs y otros detalles, visite [Wiki de calibre-web](https://github.com/janeczku/calibre-web/wiki)
 
-## Este es un FORK No oficial de Calibre-Web.
+## Este es un FORK No oficial de Calibre-Web. Código sometido a la licencia GPL v3
