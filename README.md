@@ -78,3 +78,36 @@ Para información extra, FAQs y otros detalles, visite [Wiki de calibre-web](htt
 ## Este es un FORK No oficial de Calibre-Web. 
 
 Código sometido a la licencia GPL v3
+
+
+
+## Configurarlo como Servicio en Linux
+Se puede configurar Calibre-Web para que inicie automaticamente con servico en Linux con systemd
+
+Si desea que Calibre-Web se inicie automaticamente despues de cada reboot siga la siguientes instrucciones:
+
+Cree un fichero con nombre cps.service ó calibre-web.service en el directorio /etc/systemd/system con el siguiente contenido:
+Nota: Debe cambiar los siguientes valores en el fichero:
+
+Ruta_python Cambielo por la ruta de su programa python (generalmente /usr/bin/python)
+Ruta_calibre-web Cambielo por la ruta en donde ha instalado el programa calibre-web
+Usuario Cambielo por el usuario que qu
+
+```
+[Unit]
+Description=Calibre-Web
+
+[Service]
+Type=simple
+User=Usuario
+ExecStart=Ruta_python /Ruta_calibre-web/cps.py
+WorkingDirectory=/Ruta_calibre-web
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Despues como root, habilite el servicio para que se inicie automaticamente con el comando:
+
+sudo systemctl enable cps.service
+
