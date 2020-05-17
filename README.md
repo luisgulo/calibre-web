@@ -1,27 +1,28 @@
 # About
 
-Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing [Calibre](https://calibre-ebook.com) database.
+Calibre-Web es una aplicacion Web con una interfaz limpia para mostrar, leer o descargar eBooks usando una base de datos existente de [Calibre](https://calibre-ebook.com).
 
-*This software is a fork of [library](https://github.com/mutschler/calibreserver) and licensed under the GPL v3 License.*
+Esta repositorio es un fork del original [calibre-web] https://github.com/janeczku/calibre-web, y este a su vez de otro:
+*This software is a fork of [library](https://github.com/janeczku/calibre-webhttps://github.com/mutschler/calibreserver) and licensed under the GPL v3 License.*
 
 ![Main screen](https://github.com/janeczku/calibre-web/wiki/images/main_screen.png)
 
-## Features
+## Características
 
-- Bootstrap 3 HTML5 interface
-- full graphical setup
-- User management with fine-grained per-user permissions
-- Admin interface
-- User Interface in czech, dutch, english, finnish, french, german, hungarian, italian, japanese, khmer, polish, russian, simplified chinese, spanish, swedish, turkish, ukrainian
+- Interaz Bootstrap 3 con HTML5
+- Totalmente configurable en modo gráfico
+- Gestion de permisos de usuario perfectamente detallada
+- Interfaz de Administrador
+- Intefaz disponible en Español. Y también en: czech, dutch, english, finnish, french, german, hungarian, italian, japanese, khmer, polish, russian, simplified chinese, swedish, turkish, ukrainian
 - OPDS feed for eBook reader apps 
-- Filter and search by titles, authors, tags, series and language
-- Create a custom book collection (shelves)
-- Support for editing eBook metadata and deleting eBooks from Calibre library
-- Support for converting eBooks through Calibre binaries
-- Restrict eBook download to logged-in users
-- Support for public user registration
-- Send eBooks to Kindle devices with the click of a button
-- Sync your Kobo devices through Calibre-Web with your Calibre library
+- Se puede filtrar y buscar por título, autor, etiqueta, serie e idioma
+- Se pueden crear colecciones propias de libros -Estanterías- (Shelves)
+- Permite editar metadatos de los eBooks o borrarlos de Calibre (sólo si has concedido permiso para ello al usuario)
+- Permite convertir a otros formatos de eBooks (usando los binarios de Calibre)
+- Permite restringir la descarga de eBook a los usuarios
+- Suporte de registro público a los usuarios.
+- Puede enviar los eBooks a dispositivos Kindle simplemente haciendo click en un botón
+- Sincroniza los dispositivos Kobo a través de Calibre-Web con tu librería Calibre
 - Support for reading eBooks directly in the browser (.txt, .epub, .pdf, .cbr, .cbt, .cbz)
 - Upload new books in many formats, including audio formats (.mp3, .m4a, .m4b)
 - Support for Calibre Custom Columns
